@@ -2,6 +2,7 @@
 :root {
   --primary-default: #072AC8;
   --primary-hover: #A2D6F9;
+  --primary-light: #d1edff;
   --Background: #f2f4fc;
   --accent: #43D2FF;
   --secondary: #FFC600;
@@ -23,11 +24,11 @@ body {
 }
 
 * {
-  background: var(--Background);
+  background: var(--Background); 
   margin: 0 auto;
   padding: 0;
   font-family: Roboto, sans-serif;
-  max-width: 1000;;
+  max-width: 1000;
 }
 
 h1 {
@@ -92,6 +93,7 @@ h4 {
 .nav-bar ul li a {
   text-decoration: none;
   color: var(--neutral-medium);
+  background: var(--Background); 
 }
 
 .nav-bar ul li a:hover {
@@ -215,6 +217,7 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   margin-left: 180px;
+  margin-bottom: 200px;
 }
 
 .container .card{
@@ -250,12 +253,32 @@ h4 {
   margin-bottom: 80px;
 }
 
+.container .card p.marg1{
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 110px;
+}
+
+
+
+
 .container .card a {
   font-weight: 500;
   text-decoration: none;
-  color: #3498db;
+  color: var(--primary-default);
   padding: 0 1rem;
 }
+#marg1 {
+  margin-top: 20px;
+}
+.card{
+  background: white;
+}
+.card p, h3, a {
+  background: white;
+}
+
 
 /* Testimonial */
 
@@ -355,3 +378,134 @@ color: #a2d6f9;
 .testimonial-profile-info p.booking {
 margin-left: 30px;
 }
+
+/* Our Services */ 
+
+
+.container .card .img-services {
+  background-color: var(--primary-light);
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* Questions */ 
+
+
+.email-section {
+  width: 100%;
+  height: 500px;
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.email-section h3 {
+  color: var(--neutral-dark);
+  margin-bottom: 1px;
+  background-color: var(--secondary);
+}
+
+.email-section p {
+  margin-top: 1.25rem;
+  background-color: var(--secondary);
+}
+
+div.email-button {
+   background-color: var(--secondary);
+  
+}
+
+#email {
+  font-size: 20px;
+  border: none;
+  height: 60px;
+  margin-right: 10px;
+  background: url(/assets/newsletter/icon/mail.svg);
+  background-repeat: no-repeat;
+  background-position: 10%;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-left: 120px;
+  padding-right: 100px;
+  border: 0;
+  margin-top: 50px;
+}
+
+.button-subscribe {
+  background-color: var(--primary-default);
+  color: white;
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  text-align: center;
+  min-width: 100px; 
+  margin: 20px;
+  height: 60px;
+}
+
+/* footer */ 
+
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 100%;
+  z-index: 100;
+ }
+
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.nav-footer p {
+  margin-right: 40px;
+}
+
+
+.nav-links {
+  margin: 50px 50px;
+}
+
+.nav-footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-footer ul li {
+  margin-right: 130px;
+}
+
+
+.nav-footer ul li a {
+  text-decoration: none;
+  color: var(--neutral-medium);
+  background-color: var(--neutral-light);
+}
+
+.nav-footer ul li a:hover {
+  color: var(--primary-default);
+}
+
+.footer-nav-menu {
+  margin-left: 40px;
+}
+
