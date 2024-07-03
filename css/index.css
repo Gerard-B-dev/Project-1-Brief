@@ -20,7 +20,6 @@ body {
   padding-left: 100px;
   padding-right: 100px;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 * {
@@ -98,7 +97,6 @@ h4 {
 
 .nav-bar ul li a:hover {
   color: var(--primary-default);
-
 }
 
 .button-contact-us {
