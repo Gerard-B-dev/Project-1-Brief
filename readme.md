@@ -14,11 +14,19 @@ Home, Project, Contact
 
 - Tareas a completar:
 
-1. Navegar entre las correspondientes páginas
+1. Diseñar la página web
 
-2. Hacer que todos los campos del formulario de contacto sean obligatorios antes de poder enviarlo.
+2. Navegar entre las correspondientes páginas
 
-3. Agregar animaciones a diferentes secciones
+3. Hacer que todos los campos del formulario de contacto sean obligatorios antes de poder enviarlo.
+
+4. Agregar animaciones a diferentes secciones
+
+# 	Funcionalidades JavaScript
+
+1. Obtener los tres primeros proyectos de la API para mostrarlos en el sitio web en la posición esperada. Esta API devuelve los proyectos en orden descendente, por lo que se puede suponer que el primer elemento de la matriz es el último proyecto.
+
+2. Validar el formulario
 
 # 	Desplegar el proyecto
 
