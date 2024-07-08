@@ -1,0 +1,41 @@
+
+.hero-s { 
+    margin-bottom: 150px;
+
+  }
+.hero-s h1{
+    margin-bottom: 50px;
+    margin-left: 250px;
+}
+.hero-y {
+    width: 100%;
+}
+#ui-p {
+    margin-left: 250px;
+}
+.simplify {
+    display: block;
+   
+}
+
+.simplify_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+
+.img-pro img {
+    width: 66%;
+    height: 500x;
+    object-fit: cover;
+    margin-left: 250px;
+    margin-right: 300px;
+}
+
+.text-s {
+    margin-left: 250px;
+    margin-right: 327px;
+    margin-top: 100px;
+}
