@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-    alert('El DOM carga'); // Verifica que el DOM está cargado
+    // alert('El DOM carga'); // Verifica que el DOM está cargado
 
     document.querySelector('#contactForm').addEventListener('submit', function(event) {
         event.preventDefault();
